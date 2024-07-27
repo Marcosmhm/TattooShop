@@ -8,11 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        heading: '#FFF',
+        text: '#CCCCCC',
+        yellow: '#FFD911',
+        'text-muted': '#636363',
+        'footer-bg': '#FFF',
+        'main-bg': '#191919',
       },
+      fontFamily: {
+        signature: ['var(--font-signature)'],
+        londrina: ['var(--font-londrina)'],
+      },
+      fontWeight: {
+        heading: '900',
+      }
     },
   },
   plugins: [],
