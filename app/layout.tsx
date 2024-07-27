@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`}>
+      <body className={`${inter.variable} ${londrina.variable} ${island.variable} text-text`}>
         <Header />
         <main className="bg-main-bg">
           {children}
