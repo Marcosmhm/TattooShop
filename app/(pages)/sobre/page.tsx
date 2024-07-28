@@ -59,7 +59,7 @@ export default function Sobre() {
         width={430}
         height={531}
         alt="about portrait"
-        className="hidden xl:block w-auto max-h-[750px] -mr-6"
+        className="hidden xl:block w-auto max-h-[738px] -mr-6"
       />
     </section>
   );
