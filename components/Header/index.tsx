@@ -21,7 +21,7 @@ export default function Header() {
               height={16}
               alt="WhatsApp logo"
             />
-            <span className="text-[12px]">(+55) 11 99999 9999</span>
+            <Link href={'https://wa.me/5511999999999'} target="_blank" className="text-[12px]">(+55) 11 99999 9999</Link>
           </div>
         </div>
       </div>
