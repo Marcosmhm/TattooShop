@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-footer-bg text-[14px] text-text-muted mt-7  sm:mt-14 lg:mt-7 ">
+    <footer className="absolute bottom-0 w-full bg-footer-bg text-[14px] text-text-muted mt-7  sm:mt-14 lg:mt-7 ">
       <div className="flex justify-between py-[15px] px-3 sm:px-[50px] lg:pl-[150px] items-center mx-auto max-w-maxWidth lg:justify-normal lg:gap-x-1.5 lg:py-[25px] lg:z-30 lg:relative">
         <div className="capitalize lg:flex lg:justify-between lg:items-center lg:gap-1.5">
           <span>Sandro Luz Tattoo Shop</span>
