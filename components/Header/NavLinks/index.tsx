@@ -16,7 +16,7 @@ export default function NavLinks() {
     const isActive = pathName.startsWith(link.href);
 
     return (
-      <Link key={link.name} href={link.href} className={isActive ? 'underline' : ''}>
+      <Link key={link.name} href={link.href} className={isActive ? 'underline' : '' + 'hover:underline'}>
         {link.name}
       </Link>
     );
