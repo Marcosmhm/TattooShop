@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${londrina.variable} ${island.variable} relative min-h-[100vh] text-text bg-main-bg font-inter`}
+        className={`${inter.variable} ${londrina.variable} ${island.variable} relative min-h-[100vh] after:h-[78px] after:content-[''] after:block text-text bg-main-bg font-inter`}
       >
         <Header />
         <main className="bg-main-bg max-w-maxWidth mx-auto">{children}</main>
