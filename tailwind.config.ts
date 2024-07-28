@@ -13,15 +13,19 @@ const config: Config = {
         text: '#CCCCCC',
         yellow: '#FFD911',
         'text-muted': '#636363',
-        'footer-bg': '#FFF',
+        'footer-bg': '#161616',
         'main-bg': '#191919',
       },
       fontFamily: {
         signature: ['var(--font-signature)'],
         londrina: ['var(--font-londrina)'],
+        inter: ['var(--font-inter)'],
       },
       fontWeight: {
         heading: '900',
+      },
+      maxWidth: {
+        maxWidth: '1440px',
       },
       backgroundImage: {
         'portrait-mobile': 'url("/portrait-mobile.png")',

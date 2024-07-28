@@ -2,12 +2,19 @@ import type { Metadata } from "next";
 import { Inter, Island_Moments, Londrina_Solid } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"], variable: '--font-inter'});
-const londrina = Londrina_Solid({ weight: ["100", "300", "400", "900"], subsets: ['latin'], variable: '--font-londrina' })
-const island = Island_Moments({ weight: ["400"], subsets:[], variable: '--font-signature'})
-
-
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const londrina = Londrina_Solid({
+  weight: ["100", "300", "400", "900"],
+  subsets: ["latin"],
+  variable: "--font-londrina",
+});
+const island = Island_Moments({
+  weight: ["400"],
+  subsets: [],
+  variable: "--font-signature",
+});
 
 export const metadata: Metadata = {
   title: "Tattoo Shop",
@@ -21,11 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${londrina.variable} ${island.variable} text-text max-w-[1280px] bg-main-bg mx-auto`}>
+      <body
+        className={`${inter.variable} ${londrina.variable} ${island.variable}min-h-[100vh] text-text bg-main-bg font-inter`}
+      >
         <Header />
-        <main className="bg-main-bg">
-          {children}
-        </main>
+        <main className="bg-main-bg max-w-maxWidth mx-auto">{children}</main>
+        <Footer />
       </body>
     </html>
   );
