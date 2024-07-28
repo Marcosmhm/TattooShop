@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-main-bg">
+    <header className="bg-main-bg max-w-maxWidth mx-auto">
       <div className="px-[50px] pt-10 sm:flex sm:justify-between lg:px-[140px] lg:pt-[61px]">
         <div className="mb-[10px]">
           <Link href={"/"}>
