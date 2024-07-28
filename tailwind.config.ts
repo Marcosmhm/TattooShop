@@ -22,7 +22,13 @@ const config: Config = {
       },
       fontWeight: {
         heading: '900',
-      }
+      },
+      backgroundImage: {
+        'portrait-mobile': 'url("/portrait-mobile.png")',
+        'portrait-desktop': 'url("/portrait-desktop.png")',
+        'about-desktop': 'url("/about-portrait-desktop.png")',
+        'about-mobile': 'url("/about-portrait-mobile.png")',
+      },
     },
   },
   plugins: [],
