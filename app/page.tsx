@@ -19,7 +19,7 @@ export default function Home() {
         width={500}
         height={1000}
         alt="portrait desktop"
-        className="absolute hidden -top-4 right-[6.75rem] z-10 max-h-[735px] w-auto lg:block"
+        className="absolute hidden -top-4 right-[6.75rem] z-10 max-h-[831px] w-auto lg:block"
       />
       <div className="hidden lg:block absolute left-20 -top-12 font-londrina uppercase font-normal text-text-muted opacity-15 text-[270px] tracking-wide z-0">
         Tattoo
