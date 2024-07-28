@@ -27,12 +27,6 @@ const config: Config = {
       maxWidth: {
         maxWidth: '1440px',
       },
-      backgroundImage: {
-        'portrait-mobile': 'url("/portrait-mobile.png")',
-        'portrait-desktop': 'url("/portrait-desktop.png")',
-        'about-desktop': 'url("/about-portrait-desktop.png")',
-        'about-mobile': 'url("/about-portrait-mobile.png")',
-      },
     },
   },
   plugins: [],
